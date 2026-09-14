@@ -69,7 +69,7 @@ Notes:
 ## 🔧 Tuning and Calibration
 You can adjust the camera calibration parameters at the top of the script based on your specific dashcam angle and resolution:
 * `BEV_LENGTH_METERS` - The real-world length represented by the BEV projection.
-* `WARNING_DISTANCE` - Threshold for the FCW alert (currently set to 15.0m).
+* `WARNING_DISTANCE` - Threshold for the FCW alert (currently set to 2.0m).
 * `ORIZONT_Y`, `OFFSET_X` - Parameters to adjust the ego-lane trapezoid.
 
 ## 👨‍💻 Author
