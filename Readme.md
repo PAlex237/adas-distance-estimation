@@ -7,7 +7,7 @@ A Computer Vision-based Advanced Driver Assistance System (ADAS) that estimates 
 * **Ego-Lane Isolation (ROI):** Implements a custom trapezoidal Region of Interest to ignore vehicles on adjacent lanes.
 * **Bird's Eye View (BEV) Transformation:** Uses Homography (`cv2.getPerspectiveTransform`) to convert the camera perspective into a top-down view, allowing accurate pixel-to-meter conversion.
 * **Kalman Filter Stabilization:** Eliminates detection noise and bounding box jitter, providing a smooth and continuous distance output.
-* **Forward Collision Warning (FCW):** Triggers a visual alert when the distance drops below the critical safety threshold of 15 meters.
+* **Forward Collision Warning (FCW):** Triggers a visual alert when the distance drops below the critical safety threshold of 2 meters.
 
 ## 🛠️ Technical Pipeline
 1. **Video Ingestion:** Frame-by-frame processing using OpenCV.
